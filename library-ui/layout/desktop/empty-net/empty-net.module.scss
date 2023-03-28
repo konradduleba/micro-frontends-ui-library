@@ -1,0 +1,5 @@
+@use '../mixins/net.module.scss' as *;
+
+.container{
+  @include desktop-net();
+}
